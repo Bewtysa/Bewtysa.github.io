@@ -38,7 +38,7 @@
   
   /* When clicked on, add a background color and strike out text */
   ul li.checked {
-    background: #888;
+    background: rgb(247, 223, 7);
     color: #fff;
     text-decoration: line-through;
   }
