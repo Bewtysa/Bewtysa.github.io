@@ -1,3 +1,7 @@
+body{
+  background: -webkit-linear-gradient(top, #dcadf2, #d0fda3)
+}
+
 /* Include the padding and border in an element's total width and height */
 * {
     box-sizing: border-box;
@@ -38,7 +42,7 @@
   
   /* When clicked on, add a background color and strike out text */
   ul li.checked {
-    background: rgb(247, 223, 7);
+    background: #888;
     color: #fff;
     text-decoration: line-through;
   }
@@ -47,7 +51,7 @@
   ul li.checked::before {
     content: '';
     position: absolute;
-    border-color: rgba(90, 215, 49, 0.68);
+    border-color: #fff;
     border-style: solid;
     border-width: 0 2px 2px 0;
     top: 10px;
@@ -69,6 +73,7 @@
     background-color: #f44336;
     color: white;
   }
+
 
   /* Style the input */
   input {
